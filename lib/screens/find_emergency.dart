@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:protect/models/hospital_model.dart';
 
 class FindEmergency extends StatelessWidget {
-  const FindEmergency({super.key});
+  FindEmergency({super.key});
+  // 검색된 병원 목록
+  List<HospitalModel> HospitalInstances = [];
 
   @override
   Widget build(BuildContext context) {
