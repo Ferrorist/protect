@@ -39,7 +39,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  kakao_flutter_sdk: ^1.4.1 # 전체 추가
+  kakao_flutter_sdk_navi: ^1.4.1 # 카카오내비
+  kakao_flutter_sdk_share: ^1.4.1 # 카카오톡 공유
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
